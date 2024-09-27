@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Checker</title>
+    <link rel="shortcut icon" href="/img/iconage.png" type="image/x-icon">
+    <link rel="stylesheet" href="AgeChecker.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+
+        <div id="form">
+            <p>
+                Ano de Nascimento:
+                <input type="number" name="ano" id="idade" min="0">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="sex" id="masc" checked>
+                <label for="masc">Maculino</label>
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <input type="button" value="Verificar" onclick="Verificar()">
+        </div>
+
+        <div id="res">
+
+            <p>
+                Preencha os dados acima para ver o resultado!
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Júlio Emauel</p>
+    </footer>
+
+    <script src="age.js"></script>
+</body>
+
+</html>
